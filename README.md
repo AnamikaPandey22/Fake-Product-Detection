@@ -54,6 +54,13 @@ Fake-Product-Detection/
 
 ---
 
+📂 Dataset Access
+
+You can access the full product and logo dataset here:  
+🔗 [Google Drive Link](https://drive.google.com/drive/folders/1PKTFRHuv9ASPE3KU5Nxl95RDsVzuYhfJ?usp=drive_link)
+
+---
+
 💡 Future Scope
 *Add more brands and logo variants
 *Fine-tune classification model on a larger dataset
