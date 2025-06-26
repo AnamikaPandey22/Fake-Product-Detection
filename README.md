@@ -1,4 +1,4 @@
-# 🧠 Fake Product Analyzer
+# 🧠 Fake Product Detection
 
 An AI-powered system that detects product logos from images using YOLOv8 and classifies them as Real or Fake using ResNet50. Built as part of my AI/ML project during the CDAC Training Program.
 > 🚧 **Status**: This project is still in development. More features and improvements coming soon!
@@ -27,16 +27,45 @@ Counterfeit products cause major financial and health-related issues. This proje
 
 ---
 
-## 🖼 Sample Output
-
-| Input Image | Detected Logo | Classification | Explanation |
-|-------------|---------------|----------------|-------------|
-| ![input](streamlit_app/sample1.jpg) | Nestle | Fake | The logo font doesn't match official Nestle branding. |
-
----
-
 ## 🛠 How to Run Locally
 
 1. Clone the repo:
 ```bash
 git clone https://github.com/yourusername/Fake-Product-Analyzer.git
+```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
+📦 Folder Structure
+Fake-Product-Detection/
+│
+├── yolo_model/            # YOLOv8 weights or model (best.pt)
+├── logo_classifier/       # ResNet50 (logo_classifier_image.keras)
+├── data/                  # Product dataset and Logo dataset
+├── app.py                 # Streamlit app
+├── requirements.txt       # Python dependencies
+└── README.md              # Project overview
+
+---
+
+💡 Future Scope
+*Add more brands and logo variants
+*Fine-tune classification model on a larger dataset
+*Improve explanation quality using better LLM prompting
+*Add OCR to read product labels
+*Host as a cloud API or mobile app
+
+---
+
+🙋‍♀️ Author
+Anamika Pandey
+Final Year BCA | CDAC Patna | AI/ML Enthusiast
+🌐 [LinkedIn](https://www.linkedin.com/in/anamika-pandey-ana/) | 🧠 [Gmail](anamika221105@gmail.com)
+
+💬 Open to collaborations, ideas, and feedback!
