@@ -44,13 +44,12 @@ streamlit run app.py
 
 📦 Folder Structure
 Fake-Product-Detection/
-│
-├── yolo_model/            # YOLOv8 weights or model (best.pt)
-├── logo_classifier/       # ResNet50 (logo_classifier_image.keras)
-├── data/                  # Product dataset and Logo dataset
-├── app.py                 # Streamlit app
-├── requirements.txt       # Python dependencies
-└── README.md              # Project overview
+yolo_model/            # YOLOv8 weights or model (best.pt)
+logo_classifier/       # ResNet50 (logo_classifier_image.keras)
+data/                  # Product dataset and Logo dataset
+app.py                 # Streamlit app
+requirements.txt       # Python dependencies
+README.md              # Project overview
 
 ---
 
